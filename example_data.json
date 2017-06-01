@@ -1,0 +1,90 @@
+{
+	"avatar": "assets/img/avatar.jpg",
+	"name": "Luu Truong",
+	"title": "Developer",
+
+	"information": [
+		{
+			"icon": "fa-calendar",
+			"text": "June 06, 1992"
+		},
+		{
+			"icon": "fa-user",
+			"text": "Male"
+		},
+		{
+			"icon": "fa-phone",
+			"text": "(+84) 124 840 ***"
+		},
+		{
+			"icon": "fa-map-marker",
+			"text": "Ha Noi, Viet Nam"
+		}
+	],
+
+	"interesting": [
+		"Learning more technology",
+		"Picnic",
+		"Music",
+		"Coding"
+	],
+
+	"jobs": [
+		{
+			"project": "React CV Profile",
+			"workTime": "Jun 2017 - Present",
+			"company": "Your Company Name",
+			"companyRef": "http:\/\/www.google.vn",
+			"position": "Web Developer",
+			"description": "Something cool description",
+			"tech": "ReactJS"
+		}
+	],
+
+	"skills": [
+		{
+			"title": "Web Developer",
+			"options": [
+				{ "name": "PHP", "value": 95 },
+				{ "name": "Javascript\/jQuery", "value": 88},
+				{ "name": "NodeJS", "value": 68 },
+				{ "name": "Laravel", "value": 90 },
+				{ "name": "MySQL", "value": 66 },
+				{ "name": "MongoDB", "value": 66},
+				{ "name": "Symfony", "value": 82 },
+				{ "name": "Twig", "value": 78},
+				{ "name": "CSS", "value": 70 },
+				{ "name": "ReactJS", "value": 82}
+			]
+		},
+		{
+			"title": "iOS Developer",
+			"options": [
+				{ "name": "Objective-C", "value": 50},
+				{ "name": "Swift", "value": 80 }
+			]
+		},
+		{
+			"title": "Tools",
+			"options": [
+				{ "name": "SVN", "value": 72 },
+				{ "name": "Git", "value": 78},
+				{ "name": "Composer", "value": 80 },
+				{ "name": "NPM", "value": 72}
+			]
+		},
+		{
+			"title": "Other",
+			"options": [
+				{ "name": "C++", "value": 65}
+			]
+		}
+	],
+
+	"education": [
+		{
+			"name": "Some Cool University",
+			"time": "Sep 2010 - Sep 2014"
+		}
+	]
+}

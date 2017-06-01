@@ -1,0 +1,243 @@
+/*
+* @Author: luutruong
+* @Date:   2017-06-01 15:33:03
+* @Last Modified by:   luutruong
+* @Last Modified time: 2017-06-01 23:37:27
+*/
+/**
+ * http://applemusic.tumblr.com/
+ * https://jsfiddle.net/xq56dmrh/
+ */
+
+/** Ultra Light */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 100;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff");
+}
+
+/** Thin */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 200;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff");
+}
+
+/** Regular */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+/** Medium */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 500;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff");
+}
+
+/** Semi Bold */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 600;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff");
+}
+
+/** Bold */ 
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 700;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #333;
+	font-family: "San Francisco";
+}
+
+ol, ul, h3 {
+	padding: 0;
+	margin: 0;
+}
+
+.list-unstyled {
+	list-style: none;
+}
+
+#root {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.container {
+	width: 960px;
+	height: 1200px;
+	background-color: #fff;
+	border-radius: 5px;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: row;
+	flex-grow: 1;
+	height: 100%;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.component.info {
+	width: 280px;
+	background-color: #37474f;
+    color: #fff;
+}
+
+.component.details {
+	flex-grow: 1;
+	box-shadow: 0px 0px 50px rgba(0,0,0,.2);
+}
+
+.component .user {
+	padding: 30px;
+	background: #253137;
+	color: #fff;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.title {
+	font-size: 18pt;
+	font-weight: 500;
+	margin-top: 15px;
+}
+
+.avatar {
+	border-radius: 5px;
+	border: 2px solid #fff;
+	box-shadow: 0px 2px 10px rgba(255,255,255,.3);
+	width: 200px;
+	height: 200px;
+	display: block;
+	background-position: center center;
+	background-size: cover;
+}
+
+.user-info a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.block-inline {
+	padding: 6px 0;
+	font-size: 14px;
+    font-weight: 200;
+}
+
+.block-inline>i {
+	margin-right: 10px;
+}
+
+.block-wrapper {
+	padding: 8px 16px;
+}
+	.block-wrapper h3 {
+		padding: 0;
+		margin: 0;
+		font-weight: 400;
+	    border-bottom: 1px solid #766f6f;
+    	padding-bottom: 8px;
+	}
+
+.progress-bar{
+	height: 12px;
+	background-color: #eceeef;
+	position: relative;
+	display: inline-flex;
+	width: 100%;
+	border-radius: 6px;
+	vertical-align: middle;
+	align-self: center;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+	.progress-bar .progressing {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		width: 0%;
+		background-color: #f0ad4e;
+		border-radius: 5px;
+	}
+	.progress-bar-title {
+		width: 40%;
+	    text-align: right;
+	    font-size: 14px;
+	}
+.main {
+	padding: 15px;
+}
+
+.flex {
+	display: flex;
+	flex-direction: row;
+}
+.job h3 {
+	flex-grow: 1;
+	color: rgb(37, 49, 55);
+}
+.job .title, .job h3 {
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 16px;
+}
+
+.job-history {
+	margin-bottom: 20px;
+}
+.job .company {
+	text-decoration: none;
+	font-size: 15px;
+	color: gray;
+	padding-bottom: 8px;
+}
+.job-describe {
+    font-weight: 400;
+    font-size: 15px;
+    list-style-type: circle;
+    margin-left: 25px;
+}
+.detail-title {
+	font-weight: 400;
+	font-size: 20px;
+}
+	.detail-title .job-icon {
+		margin-right: 10px;
+	}
+
+.skill-childs {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 15px;
+}
+
+	.skill-childs>* {
+		flex-grow: 1;
+		display: flex;
+		flex-direction: row;
+		width: 50%;
+	}
+	.skill-childs[data-total="1"] {
+		display: inherit;
+	}
+
+
